@@ -32,7 +32,7 @@ export default function Card(props: {
     openSpots: number;
 }) {
     return (
-        <div className="flex-none w-3/5 mr-8 border rounded-lg md:w-1/3 md:pb-4 lg:w-1/5">
+        <div className="flex-none w-3/4 mr-8 border rounded-lg md:w-1/3 md:pb-4 lg:w-1/5">
             <div className="relative overflow-hidden rounded">
                 <img className="w-screen rounded-lg" src={require(`./images/${props.coverImg}`)} alt={props.title} />
 
